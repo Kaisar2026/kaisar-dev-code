@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared style */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+.logo h2{
+font-size: 45px;
+color: rgba(24, 24, 24, 1);
+font-weight: 900px;
+}
+
+.color-orange{
+    color: rgba(253, 110, 10, 1);
+}
+
+.btn{
+    border: none;
+    background-color: rgba(253, 110, 10, 1);
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* main style */
+}
+header{
+    background-color: rgba(255, 248, 243, 1);
+    padding-top: 50px;
+}
+.nav-selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    border: 1px solid red;
+    margin: 0 auto;  
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 51px;
+    /* list-style: none; */
+    list-style-type: none;
+    align-items: center;
+}
+.menu a{
+    font-size: 20px;
+    color: rgba(71, 71, 71, 1);
+    text-decoration: none;
+}
+
