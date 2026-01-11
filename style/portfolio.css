@@ -58,24 +58,26 @@ font-weight: 900px;
 header{
     background-color: rgba(255, 248, 243, 1);
     background: url(../images/developer.png), url(../images/header_bg.png), rgba(255, 248, 243, 1);
-    background-position: top left, bottom right;
+    /* background-position: top left, bottom right; */
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
-.nav-selection{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1460px;
-}  
 
 nav{
-    width: 81%;
+    width: 71%;
     max-width: 1140px;
     border: 1px solid red;
     margin: 0 auto;  
 }
 
+.nav-selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1460px; */
+    max-width: 1140px;
+}  
 
 .menu{
     display: flex;
